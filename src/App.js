@@ -7,6 +7,7 @@ import Button from './components/Button';
 import Arrow from './components/Arrow';
 import Statework from './components/Statework';
 import Setstatework from './components/Setstatework';
+import Conditional from './components/Conditional';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
       <Button></Button> */}
       {/* <Arrow></Arrow> */}
       {/* <Statework></Statework> */}
-      <Setstatework></Setstatework>
+      {/* <Setstatework></Setstatework> */}
+      <Conditional></Conditional>
     </div>
   );
   
