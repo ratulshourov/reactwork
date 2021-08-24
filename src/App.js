@@ -9,6 +9,7 @@ import Statework from './components/Statework';
 import Setstatework from './components/Setstatework';
 import Conditional from './components/Conditional';
 import Variableelements from './components/Variableelements';
+import Refresh from './components/Refresh';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,8 @@ function App() {
       {/* <Statework></Statework> */}
       {/* <Setstatework></Setstatework> */}
       {/* <Conditional></Conditional> */}
-      <Variableelements></Variableelements>
+      {/* <Variableelements></Variableelements> */}
+      <Refresh></Refresh>
     </div>
   );
   
