@@ -6,6 +6,7 @@ import About from './components/About';
 import Button from './components/Button';
 import Arrow from './components/Arrow';
 import Statework from './components/Statework';
+import Setstatework from './components/Setstatework';
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
       <About address="Dhaka"></About>
       <Button></Button> */}
       {/* <Arrow></Arrow> */}
-      <Statework></Statework>
+      {/* <Statework></Statework> */}
+      <Setstatework></Setstatework>
     </div>
   );
   
