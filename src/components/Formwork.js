@@ -42,6 +42,12 @@ class Formwork extends Component {
           <input name="address" onChange={this.eventhandler} type="text" placeholder="Enter address" />  <br></br>
           <h1>{this.state.des}</h1>
           <textarea onChange={this.eventhandler} name="description" />
+<br></br>
+          <select value="dhaka">
+            <option>Mohammadpur</option>
+            <option>Dhanmondi</option>
+           
+          </select>
           <input type="submit" value="Submit" />
         </form>
       </div>
