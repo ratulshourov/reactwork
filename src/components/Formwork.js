@@ -9,15 +9,19 @@ class Formwork extends Component {
   }
   eventhandler = (event) => {
 
-    var formname = event.target.value;
-    this.setState({ name: formname });
+    var formname = event.target.name;
+    var formvalue = event.target.value;
+    this.setState({ name: formvalue });
+  }
+  formsubmit=()=>{
+    alert(this.state.name);
   }
   render() {
     return (
       <div>
-        <form>
+        <form onSubmit={this.formsubmit}>
         Name:<h1>{this.state.name}</h1>
-          <input onChange={this.eventhandler} type="text" placeholder="Enter name" />
+          <input name="username" onChange={this.eventhandler} type="text" placeholder="Enter name" />
           <input type="submit" value="Submit" />
         </form>
       </div>
