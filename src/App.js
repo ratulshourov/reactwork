@@ -11,6 +11,7 @@ import Conditional from './components/Conditional';
 import Variableelements from './components/Variableelements';
 import Refresh from './components/Refresh';
 import Reactdomwork from './components/Reactdomwork';
+import Formwork from './components/Formwork';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <Conditional></Conditional> */}
       {/* <Variableelements></Variableelements> */}
       {/* <Refresh></Refresh> */}
-      <Reactdomwork></Reactdomwork>
+      {/* <Reactdomwork></Reactdomwork> */}
+      <Formwork></Formwork>
     </div>
   );
   
