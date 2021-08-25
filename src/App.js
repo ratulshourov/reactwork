@@ -13,6 +13,7 @@ import Refresh from './components/Refresh';
 import Reactdomwork from './components/Reactdomwork';
 import Formwork from './components/Formwork';
 import Listwork from './components/Listwork';
+import Jsonarray from './components/Jsonarray';
 
 function App() {
   return (
@@ -30,10 +31,11 @@ function App() {
       {/* <Refresh></Refresh> */}
       {/* <Reactdomwork></Reactdomwork> */}
       {/* <Formwork></Formwork> */}
-      <Listwork></Listwork>
+      {/* <Listwork></Listwork> */}
+      <Jsonarray></Jsonarray>
     </div>
   );
-  
+
 }
 
 
