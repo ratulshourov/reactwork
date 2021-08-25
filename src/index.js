@@ -22,9 +22,6 @@ const myrouter = (
 
 )
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
   myrouter,
   document.getElementById('root')
 );
