@@ -5,7 +5,10 @@ class Reactdomwork extends Component {
   updatename = () => {
     var container = document.getElementById("name");
     var element = <h1> RATUL SHOUROV</h1>;
-    reactDom.render(element, container);
+    var callback = function () {
+      alert("Ok");
+    }
+    reactDom.render(element, container, callback);
   }
   render() {
     return (
