@@ -14,7 +14,8 @@ import Reactdomwork from './components/Reactdomwork';
 import Formwork from './components/Formwork';
 import Listwork from './components/Listwork';
 import Jsonarray from './components/Jsonarray';
-
+import Product from './components/pages/Product';
+import Contact from './components/pages/Contact';
 function App() {
   return (
     <div className="App">
@@ -32,7 +33,7 @@ function App() {
       {/* <Reactdomwork></Reactdomwork> */}
       {/* <Formwork></Formwork> */}
       {/* <Listwork></Listwork> */}
-      <Jsonarray></Jsonarray>
+      {/* <Jsonarray></Jsonarray> */}
     </div>
   );
 

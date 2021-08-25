@@ -3,11 +3,29 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Route, Link, BrowserRouter as Router } from '../node_modules/react-router-dom';
+import Product from './components/pages/Product';
+import Contact from './components/pages/Contact';
 
+const myrouter = (
+  <Router>
+    <div>
+      <ul>
+        <Link to="/Product">Product</Link>
+        <Link to="/Contact">Contact</Link>
+      </ul>
+      <Route path="/product" component={Product}></Route>
+      <Route path="/Contact" component={Contact}></Route>
+    </div>
+  </Router>
+
+
+)
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  myrouter,
   document.getElementById('root')
 );
 
