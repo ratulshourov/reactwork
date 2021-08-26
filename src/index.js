@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Route, Link, BrowserRouter as Router } from '../node_modules/react-router-dom';
 import Product from './components/pages/Product';
 import Contact from './components/pages/Contact';
-
+import './bootstrap.min.css';
 const myrouter = (
   <Router>
     <div>
